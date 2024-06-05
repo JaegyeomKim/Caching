@@ -11,7 +11,8 @@ Distributied Caching
 * Redis is an open-source, highly replicated, performant, mon-relational kind of db and caching server.
   ![image](https://github.com/JaegyeomKim/Caching/assets/77129961/cbbec469-0661-4843-b4a7-69d56b3e7515)
 
-  
 
 # When to use In-Memory caching & Distributed caching?
 
+In normal cases where the app size is small, use in-memory cache.
+However, where the app is very big or it's a microservice based architecture, then use distributed caching
